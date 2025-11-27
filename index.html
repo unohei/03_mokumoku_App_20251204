@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>もくもく</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="imp_date">
+                <label for="imp_date">実施日</label>
+                <input type="date" id="impdate"/>
+            </div>
+
+            <div class="imp_time">
+                <label for="imp_time">実施時間(分)
+                </label>
+                <input type="text" id="imptime" inputmode="numeric" pattern="[0-9]{1}" maxlength="3"/>
+            </div>
+
+        </section>
+
+        <button id="save" class="save">
+            <p>実行</p>
+        </button>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
