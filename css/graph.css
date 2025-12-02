@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header img {
+  width: 100px;
+  height: auto;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+canvas {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  height: 20px;
+  display: inline-block;
+  padding: 8px 14px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.btn:hover {
+  background: #005fc3;
+}
