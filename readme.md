@@ -1,6 +1,4 @@
-# タイトル
-
-MOKUMOKU TIMER（もくもく　タイマー）
+# MOKUMOKU TIMER（もくもく　タイマー）
 
 ## 1.制作物の説明
 
